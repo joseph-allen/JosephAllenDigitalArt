@@ -1,8 +1,16 @@
 extends layout
 
 block content
+  ul.menu
+    a(href="About")
+      li About
+    a(href="Portfolio")
+      li Portfolio
+    
   .background
     .container
       .col-sm-6.banner
         h1= title
         p Welcome
+
+  span(aria-hidden="true",data-icon="&#xea86;",class="icon-mail4")

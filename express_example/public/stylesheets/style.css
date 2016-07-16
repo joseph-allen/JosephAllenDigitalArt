@@ -2,11 +2,8 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-a {
-  color: #00b7ff;
-}
 .banner {
-  background-color: #000;
+  background-color: #1e2508;
   color: #fff;
   margin: 15px 0px;
 }
@@ -15,4 +12,23 @@ a {
   background-position: center;
   height: 80vh;
   background-size: cover;
+}
+.menu {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+.menu li {
+  display: inline-block;
+  padding: 5px;
+  font-size: 24px;
+  color: #bada55 !important;
+}
+.menu li:hover {
+  color: #657c1b !important;
+}
+@media screen and (min-width: 600px) {
+  .menu {
+    text-align: left;
+  }
 }
