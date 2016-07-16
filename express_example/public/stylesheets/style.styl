@@ -3,8 +3,11 @@ darkMainCol = darken(mainCol,50%)
 backgroundCol = darken(mainCol,85%)
 
 body
-  padding: 50px
+  padding: 10px 50px
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+
+a:hover
+  text-decoration: none !important
 
 .banner
   background-color: backgroundCol
@@ -26,8 +29,31 @@ body
     padding:5px
     font-size:24px
     color: mainCol !important
+    -webkit-transition: color 0.2s
+    transition: color 0.2s
     &:hover
       color: darkMainCol !important
+      -webkit-transition: color 0.2s
+      transition: color 0.2s
+  p
+    display: inline-block
+    padding:5px
+    font-size:24px
+    color: darkMainCol
+
+.footer
+  text-align: center
+  margin-top: 20px
+  span
+    font-size: 32px
+    margin: 0px 20px
+    color: mainCol
+    -webkit-transition: color 0.2s
+    transition: color 0.2s
+    &:hover
+      color: darkMainCol
+      -webkit-transition: color 0.2s
+      transition: color 0.2s
 
  @media screen and (min-width: 600px)
     .menu

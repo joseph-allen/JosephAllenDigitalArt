@@ -1,6 +1,9 @@
 body {
-  padding: 50px;
+  padding: 10px 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a:hover {
+  text-decoration: none !important;
 }
 .banner {
   background-color: #1e2508;
@@ -23,9 +26,35 @@ body {
   padding: 5px;
   font-size: 24px;
   color: #bada55 !important;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
 }
 .menu li:hover {
   color: #657c1b !important;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+.menu p {
+  display: inline-block;
+  padding: 5px;
+  font-size: 24px;
+  color: #657c1b;
+}
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
+.footer span {
+  font-size: 32px;
+  margin: 0px 20px;
+  color: #bada55;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+.footer span:hover {
+  color: #657c1b;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
 }
 @media screen and (min-width: 600px) {
   .menu {
