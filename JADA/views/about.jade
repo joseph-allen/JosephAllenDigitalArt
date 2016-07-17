@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  ul.menu
+    a(href="/")
+      li Home
+    p |
+    a(href="Portfolio")
+      li Portfolio
+    
+  .aboutMe
+    .container
+      .col-sm-6
+          h1.aboutMe-title About Joseph Allen
+          P.aboutMe-text Joseph Allen is a Manchester based web developer and Digital Artist. He focuses heavily on pure CSS art and utilising Processing for more complicated sketches. He runs the weekly Digital Art meetup in Manchester and also a weekly computer graphics challenge online whilst hoping to bring the Manchester community into the age of Digital art.
+
+  .footer
+    a(href="https://github.com/joezcool02")
+      span(aria-hidden="true",data-icon="&#xea86;",class="icon-github")
+    a(href="https://twitter.com/JosephAllen1234")
+      span(aria-hidden="true",data-icon="&#xea96;",class="icon-twitter")
+    //- a(href="About")
+      span(aria-hidden="true",data-icon="&#xeab0;",class="icon-mail4")
+
