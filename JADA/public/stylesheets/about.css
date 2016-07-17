@@ -10,3 +10,84 @@
     font-size: 18px;
     line-height: 32px;
 }
+
+.aboutMe-image{
+    width:100%;
+}
+
+.boxSpace{
+    height: 100px;
+    width: 200px;
+}
+
+.box1{
+    position: absolute;
+    top: 0px;
+    height:50px;
+    width: 50px;
+    background-color: #7F636E;
+    -webkit-transition:  .2s ease-in-out 0.5s;
+    transition: .2s ease-in-out 0.5s;
+    
+}
+
+.box2{
+    position: absolute;
+    top: 0px;
+    left:50px;
+    height:50px;
+    width: 50px;
+    background-color: #bada55;
+    -webkit-transition:  .2s ease-in-out 0.5s;
+    transition: .2s ease-in-out 0.5s;
+}
+
+.box3{
+    position: absolute;
+    top: 0px;
+    left:100px;
+    height:50px;
+    width: 50px;
+    background-color: #EEC584;
+    -webkit-transition:  .2s ease-in-out 0.5s;
+    transition: .2s ease-in-out 0.5s;
+}
+
+.box4{
+    position: absolute;
+    top: 0px;
+    left:150px;
+    height:50px;
+    width: 50px;
+    background-color: #55868C;
+    -webkit-transition:  .2s ease-in-out 0.5s;
+    transition: .2s ease-in-out 0.5s;
+}
+
+.boxSpace:hover .box1{
+    position: absolute;
+    top: 50px;
+    -webkit-transition:  .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+.boxSpace:hover .box2{
+    position: absolute;
+    top: 50px;
+    -webkit-transition:  .2s ease-in-out 0.5s;
+    transition: .2s ease-in-out 0.5s;
+}
+
+.boxSpace:hover .box3{
+    position: absolute;
+    top: 50px;
+    -webkit-transition:  .2s ease-in-out 1.0s;
+    transition: .2s ease-in-out 1.0s;
+}
+
+.boxSpace:hover .box4{
+    position: absolute;
+    top: 50px;
+    -webkit-transition:  .2s ease-in-out 1.5s;
+    transition: .2s ease-in-out 1.5s;
+}

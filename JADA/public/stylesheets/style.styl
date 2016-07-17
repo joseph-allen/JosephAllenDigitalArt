@@ -41,9 +41,59 @@ a:hover
     font-size:24px
     color: darkMainCol
 
+.lineSpace
+  width:100%
+  height:20px
+  &:hover .line1
+      height:20px
+      -webkit-transition:  .2s ease-in-out 0.5s;
+      transition: .2s ease-in-out 0.5s;
+  &:hover .line2
+    height:20px
+    -webkit-transition:  .2s ease-in-out 0.8s;
+    transition: .2s ease-in-out 0.8s;
+  &:hover .line3
+      height:20px
+      -webkit-transition:  .2s ease-in-out 1.1s;
+      transition: .2s ease-in-out 1.1s;
+  &:hover .line4
+      height:20px
+      -webkit-transition:  .2s ease-in-out 1.4s;
+      transition: .2s ease-in-out 1.4s;
+  .line1
+    width:20px
+    height:10px
+    background-color:#55868C
+    position:absolute
+    right:0px
+    -webkit-transition:  .2s ease-in-out;
+    transition: .2s ease-in-out;
+  .line2
+    width:40px
+    height:10px
+    background-color:#EEC584
+    position:absolute
+    right:20px
+    -webkit-transition:  .2s ease-in-out;
+    transition: .2s ease-in-out;
+  .line3
+    width:60px
+    height:10px
+    background-color:#bada55
+    position:absolute
+    right:60px
+    -webkit-transition:  .2s ease-in-out;
+    transition: .2s ease-in-out;
+  .line4
+    width:80px
+    height:10px
+    background-color:#7F636E
+    position:absolute
+    right:120px
+    -webkit-transition:  .2s ease-in-out;
+    transition: .2s ease-in-out;
+
 .footer
-  position:absolute
-  bottom:5px
   text-align: center
   margin-top: 20px
   span
