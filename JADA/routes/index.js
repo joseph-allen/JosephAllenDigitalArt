@@ -7,10 +7,10 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/About', function(req, res, next) {
-  res.render('about', { title: 'Joseph Allen Digital Art' });
+  res.render('about', { title: 'Joseph Allen Digital Art About Me' });
 });
 
 router.get('/Portfolio', function(req, res, next) {
-  res.render('index', { title: 'Joseph Allen Digital Art' });
+  res.render('portfolio', { title: 'Joseph Allen Digital Art Portfolio' });
 });
 module.exports = router;
