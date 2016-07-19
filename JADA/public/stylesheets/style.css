@@ -116,6 +116,16 @@ a:hover {
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
+.card {
+  background-color: #dcecaa;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+}
+.cardImg {
+  width: 100%;
+  max-width: 220px;
+}
 @media screen and (min-width: 600px) {
   .menu {
     text-align: left;
