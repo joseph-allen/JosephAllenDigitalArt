@@ -14,6 +14,10 @@ router.get('/Portfolio/DarkThoughts', function(req, res, next) {
   res.render('darkthoughts', { title: 'Joseph Allen Digital Art Portfolio' });
 });
 
+router.get('/Portfolio/RetroGrid', function(req, res, next) {
+  res.render('retrogrid', { title: 'Joseph Allen Digital Art Portfolio' });
+});
+
 router.get('/Portfolio', function(req, res, next) {
   res.render('portfolio', { title: 'Joseph Allen Digital Art Portfolio' });
 });
